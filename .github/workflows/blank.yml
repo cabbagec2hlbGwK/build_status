@@ -13,4 +13,3 @@ jobs:
     - name: Print who triggered the workflow
       run: |
         echo "Workflow triggered by ${{ github.actor }} (${{ github.event_name }} event)"
-        apt install test
